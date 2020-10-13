@@ -12,7 +12,7 @@ class View
     {
         $this->model = $model;
         $this->content ="KOEKJES";
-        echo "<h2>".this.content."</h2";
+        echo "<h2>".this->content."</h2";
     }
 
     public function viewContent(){
